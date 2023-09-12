@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Metadatos-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Titulo-->
+    <title>Facundo Trivisonno | Desarrollo web</title>
+    
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="./images/943026.png">
+   
+    <!-- Estilos personalizados CSS-->
+    <link rel="stylesheet" href="./index.css">
+    
+    <!-- Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous"> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+ 
+    <!-- Fuente Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Barra de navegacación-->
+
+    <nav class="navbar navbar-expand-md navbar-light">
+        <div class="container-fluid">
+          <button class="navbar-toggler btn-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarToggler">
+            <a class="navbar-brand" href="#">
+                <img src="./images/descarga.png" width="50" alt="logo del portfolio">
+            </a>
+            <ul class="navbar-nav d-flex justify-content-center align-items-center">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Sobre mí</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Proyectos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    
+    <!-- Seccion principal-->
+    <main>
+        
+        <section class="container-profile">
+            <div class="profile-flex">
+                <img src="./images/trivisonno.jpg" class="img-profile">
+                <h1>Hola, soy Facundo Trivisonno</h1>
+                <h4 style="color: rgb(214, 0, 0)">Desarrollador web full stack</h3>
+            </div>
+        </section>
+
+        <!-- Seccion sobre mi-->
+        <section class="container-about-me">
+            <h1>Sobre mí</h3>
+            <p>
+                Desarrollador Web Full Stack Jr con especialización en backend. Actualmente, estoy emocionado por 
+                comenzar mi carrera en el campo de IT y encontrar mi primer trabajo en el cual pueda desarrollarme y crecer profesionalmente.
+            </p>
+            <p>
+                Soy una persona entusiasta, adaptable y con muchas ganas de enfrentar nuevos desafíos. Siempre estoy buscando aprender más y mejorar mis habilidades técnicas. 
+                Estoy emocionado por unirme a un equipo donde pueda aportar mis conocimientos y aprender de profesionales experimentados.
+            </p>
+            
+        </section>
+
+        <!-- Seccion datos personales-->
+
+        <section class="container-personal-information">
+            <h1>Información personal</h1>
+            <div class="info-flexbox">
+                <div class="info-left">
+                    <h4 style="font-weight: bold; padding-top: 20px;">Facundo Trivisonno</h4>
+                    <ul>
+                        <li>Argentina, Rosario</li>
+                        <li>Cel: (341)6020079</li>
+                        <li>Mail: facundotrivi10@gmail.com</li>
+                        <li>Idiomas: Inglés(competencia básica profesional)</li>
+                    </ul>
+                    <h4 style="font-weight: bold; padding-top: 20px;">Formación académica</h4>
+                    <ul>
+                        <li>
+                            <h6>Digital House</h6>
+                            <p class="title">Desarrollador web full stack</p>
+                        </li>
+                        <li>
+                            <h6>Universidad Nacional de Rosario</h6>
+                            <p class="title">Ingeniería industrial</p>
+                        </li>
+                    </ul>
+                </div>    
+                <div class="info-right">
+                    <h4 style="font-weight: bold; padding-top: 20px;">Experiencia profesional</h4>
+                    <p style="font-weight: bold">Desarrollo de un eCommerce para la venta de shows de artistas musicales</p>
+                    <ul>
+                        <li>
+                            Desarrollo de backend utilizando Node.js y Express.
+                        </li>
+                        <li>
+                            Creación del frontend con HTML, CSS, JavaScript y React.
+                        </li>
+                        <li>
+                            Implementación de la metodología Scrum para la gestión del proyecto.
+                        </li>
+                        <li>
+                            Uso de Git para el control de versiones del código.
+                        </li>
+                        <li>
+                            Manejo de una base de datos MySQL utilizando el ORM Sequelize.
+                        </li>
+                    </ul>
+                    <p>Proyecto integrador realizado en el marco de Digital House</p>
+                </div>          
+            </div>
+            
+        
+        </section>
+
+
+        <!-- Seccion skills-->
+        <section class="container-skills">
+            <h1>Skills</h1>
+            <div class="skills-flexbox">
+                <article class="skill-item">
+                    <img src="./images/nodejs_icon.png">
+                    <p>Node Js</p>
+                </article>
+                <article class="skill-item">
+                    <img src="./images/javascript_icon.png">
+                    <p>JavaScript</p>
+                </article>
+                <article class="skill-item">
+                    <img src="./images/mysql-icon.png">
+                    <p>MySql</p>
+                </article>
+                <article class="skill-item">
+                    <img src="./images/git-icon.png">
+                    <p>Git</p>
+                </article>
+                <article class="skill-item">
+                    <img src="./images/sequelize-icono.png">
+                    <p>Sequelize.js</p>
+                </article>
+                <article class="skill-item">
+                    <img src="./images/html-icon.png">
+                    <p>HTML</p>
+                </article>
+                <article class="skill-item">
+                    <img src="./images/css-icon.png">
+                    <p>CSS</p>
+                </article>
+                <article class="skill-item">
+                    <img src="./images/Bootstrap_icon.jpg">
+                    <p>Bootstrap</p>
+                </article>
+                <article class="skill-item">
+                    <img src="./images/react-icon.png">
+                    <p>React</p>
+                </article>
+            </div>
+            
+        </section>
+    
+        <!-- Seccion proyectos-->
+        <section class="proyects d-flex flex-column">
+            <h1>Proyectos personales</h1>
+            <div class="container text-center containter-proyects">
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <article class="proyect">
+                            <img src="./images/DHArena.png">
+                            <div class="overlay">
+                                <p>Proyecto integrador eCommerce </p>
+                                <div class="icons-container">
+                                    <a href="https://github.com/fededolores89/grupo_12_teatroDHArena" target="_blank" rel="noopener noreferrer">
+                                        <i class="bi bi-github"></i>
+                                    </a>
+                                    <a href="https://grupo-12-teatrodharena-sq2m-dev.fl0.io/" target="_blank" rel="noopener noreferrer">
+                                        <i class="bi bi-laptop"></i>
+                                    </a>
+                                </div>
+                            </div>
+                    </div>    
+                        </article>
+                        <div class="col-12 col-md-6 col-lg-4">
+                        <article class="proyect">
+                            <img src="./images/login-register-crud.png">
+                            <div class="overlay">
+                                <p>Proyecto de registro, login y crud </p>
+                                <div class="icons-container">
+                                    <a href="https://github.com/fededolores89/grupo_12_teatroDHArena" target="_blank" rel="noopener noreferrer">
+                                        <i class="bi bi-github"></i>
+                                    </a>
+                                    <a href="https://grupo-12-teatrodharena-sq2m-dev.fl0.io/" target="_blank" rel="noopener noreferrer">
+                                        <i class="bi bi-laptop"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Secccion Contacto-->
+        <section class="container-contact">
+            <h1>Contacto</h1>
+            <ul>
+                <li>Cel: (341)6020079</li>
+                <li>Mail: facundotrivi10@gmail.com</li>
+            </ul>
+
+            <a href="https://www.linkedin.com/in/facundo-trivisonno-459208248/"> <i class="bi bi-linkedin"></i></a> 
+            <a href="https://github.com/facutrivisonno/"><i class="bi bi-github"></i> </a> 
+            <a href="https://www.instagram.com/facundotrivi"><i class="bi bi-instagram"></i></a>
+        
+        
+        </section>
+    
+    </main>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>
