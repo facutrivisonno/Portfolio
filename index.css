@@ -51,6 +51,7 @@ img{
     padding: 30px ;
     max-width: 1280px;
     margin: auto;
+    
 }
 
 .container-about-me h1{
@@ -58,6 +59,7 @@ img{
     text-decoration-color: #FF2400;
     text-decoration-thickness: 3px;
     text-underline-offset: 8px;
+    margin-bottom: 20px;
 }
 
 
@@ -187,6 +189,7 @@ img{
 
 .overlay .icons-container{
     display: flex;
+    justify-content: center;
 }
 
 .overlay .icons-container i{
@@ -200,7 +203,7 @@ img{
 /* Contacto*/
 
 .container-contact{
-    padding: 30px ;
+    padding: 0 30px ;
     max-width: 1280px;
     margin: auto;
     background-color: #f5f5f5;
@@ -211,6 +214,7 @@ img{
     text-decoration-color: #FF2400;
     text-decoration-thickness: 3px;
     text-underline-offset: 8px;
+    padding-bottom: 15px;
 }
 
 .container-contact li{
@@ -257,6 +261,20 @@ img{
         font-weight: 800;
         font-size: 13px; 
      }
+     .overlay .icons-container i{
+        color:#FF2400;
+        font-size: 22px;
+        padding: 10px;
+    }
+    
+}
+
+
+@media screen and (max-width: 450px){
+    .img-profile{
+        width: 200px;
+    }
+    
 }
 
 
